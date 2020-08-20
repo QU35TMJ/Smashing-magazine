@@ -31,7 +31,7 @@ body{
 }
 .nav-header a:hover{
     border-radius: 10px;
-    padding: 8px 10px 8px 10px;
+    padding: 8px 0 8px 0;
     background-color: darkred;
 }
 
@@ -45,7 +45,7 @@ body{
 
 .nav-list{
     display: inline;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
     font-family: sans-serif;
     padding-right: 20px;
@@ -323,7 +323,7 @@ body{
 }
 .grid:hover{
     background-color: white;
-    
+    transform: scale(1.05);
     
 }
 .article-wrapper{
@@ -539,4 +539,97 @@ body{
     max-width: 920px;
     margin: 2.5em auto;
     margin-bottom: -2em;
+}
+#community{
+    position: absolute;
+    left: 0;
+    margin-top: 60px;
+    margin-left: -60px;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    word-spacing: 2px;
+    font-size: 18px;
+
+}
+.main-dev{
+    position: relative;
+}
+
+.dev-image {
+    width: 230px;
+    height: 230px;
+    margin-top: 60px;  
+    margin-left: 100px;
+    border: 5px solid #d33a2c;
+    border-radius: 15px;
+    position: relative;
+    transform: rotateZ(-15deg);
+    transition: transform .2s;
+    transform-origin: 0 100%;
+    
+   
+}
+.dev-image:hover{    
+    transform: rotateZ(0);    
+}
+.main-dev-content{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+    margin-top: -10px;
+}
+.main-dev-text{
+   /* flex: 1 1 0%;*/
+    width: 60%;
+    margin-right: 150px;
+    font-size: 22px;
+}
+
+/*dev grid*/
+
+.grid-devs{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: repeat(3,35%); 
+    column-gap: 40px;    
+}
+
+.dev-img img{
+    width: 100px;
+    transform: rotate(-20deg);
+    border: 5px solid #d33a2c;
+    border-radius: 10px;
+}
+.dev-info{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    /*align-items: center;*/
+}
+.dev-title{
+    font-size: 28px;
+    margin-left: 189px;
+    margin-top: -90px;
+    
+}
+.dev-title a{
+    color: black;
+    text-decoration: none;
+}
+.article--post__time, .dev-name a, .dev-name{
+    color: grey;
+}
+.dev-txt{
+    font-size: 22px;
+    color: black;
+    word-spacing: 5px;
+    margin-left: 189px;
+    margin-right: 70px;
+}
+.devs{
+    margin-top: 10px;
+    position: relative;
+    background-color: #f6f3f2;
 }
