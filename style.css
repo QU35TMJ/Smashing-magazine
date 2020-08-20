@@ -350,7 +350,7 @@ body{
 }
 .grid-content{
     font-size: 24px;
-    margin-top: -50px;
+    margin-top: -200px;
 }
 .article--grid__read-more{
     display: block;
@@ -388,7 +388,7 @@ body{
     margin-top: 30px;
 }
 .grid-members:hover{
-    background-color: #d33a2c;
+    background-color: #61140f;
 }
 .members{
     text-align: center;
@@ -427,15 +427,20 @@ body{
     display: block;
     text-decoration: none;    
 }
+.memberssimg img{
+    width: 200px;
+}
+
 .grid-memberss{
     width: 90%;
-    height: 700px;
+    height: 550px;
     background-color: #d33a2c;
     border-radius: 10px;
     align-content: center;
     margin-top: 30px;
-    margin-left: 65px;
-    margin-right: 5px;
+    margin-left: 80px;
+    display: flex;
+    padding-top: 50px;
 }
 .grid-memberss:hover{
     background-color: #d33a2c;
@@ -476,4 +481,7 @@ body{
     padding: 12px;
     display: block;
     text-decoration: none;    
+}
+.memberssimg img{
+    width: 200px;
 }
