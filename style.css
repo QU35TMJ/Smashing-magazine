@@ -271,10 +271,13 @@ body{
 }
 .membershipimg{
     margin-top: -150px;
+    margin-left: 190px;
 }
 .membershipimg img{
     width: 350px;
     transform: rotate(-30deg);
+    transition: transform .2s;
+    transform-origin: 0 100%;
 }   
 .membershipimg img:hover{
     transform: scaleX(.87);
@@ -632,4 +635,154 @@ body{
     margin-top: 10px;
     position: relative;
     background-color: #f6f3f2;
+}
+
+.redsection{
+    padding: 1.5em 0;
+    color: #fff;
+    position: relative;
+    background-color: #d33a2c;
+}
+.red-img img{
+    display: block;
+    width: 100%;
+    max-width: 920px;
+    margin: 2.5em auto;
+    margin-bottom: -2em;
+}
+.redtitlelink a{
+    font-size: 48px;
+    margin-left: -14px;
+    color: #fff;
+    
+}
+.redbtn{
+    text-decoration: none;
+    background-color: white;
+}
+.redtxt a{
+    color: #267dcc;
+}
+.redimg{
+    margin-top: -50px;
+    margin-left: 260px; 
+}
+
+.layout-grid-area{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
+    
+    row-gap: 20px;
+}
+
+.grid-layout{
+    padding-right: 100px;
+    padding-left: 30px;
+    padding-bottom: 190px;
+    background-color: #f6f3f2;
+}
+.layout-grid-content{
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 80px;
+    margin-right: 10px;
+    margin-left: 50px;
+}
+.layout-header span{
+    font-size: 16px;
+    display: block;
+    margin-bottom: .5em;
+    letter-spacing: 2px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+
+.layout-header a{
+    /*text-decoration: dashed;*/
+    color: #19a972;
+    font-size: 58px;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.layout-txt{
+    font-size: 24px;
+    width: 550px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.layoutbtn{
+    padding: 25px;
+    background-color: #19a972;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+.layout4-img img{
+    width: 500px;
+}
+.layout4-mailbox{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 450px;
+    margin-left: 50px;
+    margin-top: -70px;
+    
+}
+
+.layout4-email{
+    width: 400px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    
+    
+}
+.layout4-email::placeholder{
+    font-size: 22px;
+}
+.layout4-btn{
+    width: 250px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    background-color: #0168b8;
+    color: white;
+    font-weight: bolder;
+    font-size: 24px;
+    
+}
+
+.layout4-bottom{
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #fff;
+    border-radius: 11px;
+    padding: .5em 1em;
+    display: inline-block;
+    background-color: #0067b859;
+    margin-left: 120px;
+    margin-top: 20px;
+    width: 300px;
+}
+
+.layout4 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 80px;
+    margin-right: 10px;
+    margin-left: 50px;
+    background-color: #1b71bb;
+    padding-bottom: 200px;
+}
+.layout4{
+    grid-area: 2 2 3 3;
+
 }
