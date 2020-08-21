@@ -786,3 +786,107 @@ body{
     grid-area: 2 2 3 3;
 
 }
+footer{
+    position: relative;
+    z-index: 1;
+    
+    background-image: url(https://www.smashingmagazine.com/images/footer/laptop__left.svg),url(https://www.smashingmagazine.com/images/smashing-cat/cat-the-behemoth.svg);
+    background-position: left 15% bottom 1em,right 12% bottom 2em;
+    background-repeat: no-repeat;
+    background-size: 11em auto,14em auto;
+    background-color: var(--THEME_SECONDARY_COLOR,#d33a2c);
+    font-size: .8em;
+    color: #fff;
+    display: block;
+}
+.footer-container{
+    width: 100%;
+    
+    max-width: 1640px;
+    margin: 0 auto;
+    z-index: 1;
+    position: relative;
+
+}
+.footer__topics{
+    display: block;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.footer__topics__title {
+    color: #fff;
+    font-size: 20px;
+    margin:  0;
+   /* opacity: 1!important;
+    transform: translateY(0)!important;*/
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-top: 70px;
+   
+    
+}
+.footer__topics__list {
+    padding: 0;
+   list-style-image: url(https://www.smashingmagazine.com/images/bullet.svg);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    list-style: none;
+    margin: 1em 0;
+    max-width: 100%;
+}
+
+.footer__topics__item {
+    display: inline-block;
+    padding-left: 20px; 
+    margin: .25em 0; 
+    font-size: 30px;
+    text-decoration: none;  
+}
+.footer__topics__item::before{
+    content: '•';
+    margin: 0 .25em 0 .25em;
+    display: inline-block;
+    color: var(--THEME_COLOR,#811d15);
+    font-size: calc(1em + ((.4vw + .25vh)/ 2));
+    position: relative;
+    top: 2px;
+}
+.footer__topics__item a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer__topics__item a:hover{
+    color: darkred;
+}
+.footer-bottom{
+    display: block;
+    text-align: center;
+}
+.footer__notes {
+   
+    color: #fff;
+    font-size: 20px;
+}
+.footer__notes a{
+    color: white;
+}
+.footer__links li {
+    display: inline-block;
+    padding-left: 30px;
+   
+    
+    font-size: 18px;    
+    text-decoration: none;
+    padding-top: 20px; 
+    /*padding-bottom: 50px;*/
+}
+.footer__links a{
+    color: white;
+}
+.footer__links{
+    max-width: 720px;
+    margin-left: 300px; 
+    /*margin-right: 40px;*/
+    
+}
