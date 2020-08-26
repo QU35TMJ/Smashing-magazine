@@ -160,8 +160,8 @@ body{
     display: block;
     padding: 10em 5vw 7em;
     /*display: flex;
-    flex-direction: column;*/
-    border: 1px solid silver;    
+    flex-direction: column;
+    border: 1px solid silver;  */  
 }
 .author-info{
     box-sizing: border-box;
